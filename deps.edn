@@ -233,4 +233,7 @@
 
   :kibit {:extra-deps {tvaughan/kibit-runner {:mvn/version "RELEASE"}}
           :main-opts ["-m" "kibit-runner.cmdline"]}
+
+  :kaocha {:extra-deps {lambdaisland/kaocha {:mvn/version "RELEASE"}}
+           :main-opts ["-m" "kaocha.runner"]}
   }}
