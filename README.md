@@ -12,6 +12,7 @@ There are aliases to pull in specific versions of Clojure:
 There are aliases to pull in various useful testing and debugging tools:
 * `:test` -- adds both `test` and `src/test/clojure` to your classpath and pulls in the latest stable version of `test.check`
 * `:runner` -- pulls in [Cognitect Labs' `test-runner`](https://github.com/cognitect-labs/test-runner) project and runs any tests it can find
+* `:kaocha` -- pulls in [Lambda Island's Kaocha](https://github.com/lambdaisland/kaocha) project and runs any tests it can find
 * `:readme` -- pulls in the latest stable release of [seancorfield/readme](https://github.com/seancorfield/readme) and runs it on your `README.md` file to treat your examples as tests
 * `:eastwood` -- pulls in the latest stable release of [Eastwood](https://github.com/jonase/eastwood) on your `src` and `test` folders; use with `:test` above
 * `:expect` -- pulls in the latest stable releases of [Expectations](https://github.com/clojure-expectations/expectations) and [expectations/clojure-test](https://github.com/clojure-expectations/clojure-test) -- the latter is the `clojure.test`-compatible version of the former
@@ -19,6 +20,7 @@ There are aliases to pull in various useful testing and debugging tools:
 * `:measure` -- pulls in the latest stable release of [Memory Meter](https://github.com/clojure-goes-fast/clj-memory-meter)
 * `:outdated` -- pulls in and runs version 1.8.4 of [Depot](https://github.com/Olical/depot) and reports on outdated dependencies
 * `:decompile` -- pulls in the latest stable release of [Clojure Goes Fast's decompiler](https://github.com/clojure-goes-fast/clj-java-decompiler); requires JDK 8 (not later)
+* `:kibit` -- pulls in the latest stable release of [`kibit`](https://github.com/jonase/kibit) via the [`kibit-runner` wrapper](https://gitlab.com/tvaughan/kibit-runner)
 
 There are aliases to pull in and start various REPL-related tools:
 * `:nrepl` -- pulls in the latest stable release of [nREPL](https://github.com/nrepl/nREPL) and starts an nREPL server on a random available port
